@@ -1,0 +1,37 @@
+body{
+      display: block;
+      font-family:"roboto",sans-serif;
+      margin: 8px;
+    }
+    h1{
+      display: block;
+      font-weight: bold;
+    }
+    .NO{
+        color:#A311E3;
+       }
+       /*.YES{
+           color:#1EE311;
+          }*/
+
+  @media only screen and (min-width:500px)and (max-width:600px){
+          /*.NO{
+              color:#A311E3;
+             }*/
+             .YES{
+                 color:#1EE311;
+                }
+             h1{
+
+               position: absolute;
+               text-align: center;
+               width: 100%;
+               font-size: 6em;
+               font-family: roboto;
+               transition: 0.5s;
+               transition-property: all;
+               transition-duration: 0.5s;
+               transition-timing-function: initial;
+               transition-delay: initial;
+             }
+          }

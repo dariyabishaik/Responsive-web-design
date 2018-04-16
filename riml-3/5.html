@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <title>div with CSS effects</title>
+
+  <link rel="icon" sizes="192x192" href="../../../images/icon.png">
+
+  <style>
+    body {
+      background: url(kids2.jpeg);
+      margin: 0;
+    }
+    div {
+      background: linear-gradient(#F21486,#A5F214);
+      border-radius: 80px;
+      box-shadow: 5px 5px 20px 0 #F21486;
+      font-family: 'Lobster', cursive;
+      font-size: 10vw;
+      margin: 30vh 5vw;
+      padding: 10px;
+      position: absolute;
+      text-align: center;
+      width: 85vw;
+      animation:spin 2s;
+    }
+
+    @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+    @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+    @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+  </style>
+
+<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' </head>
+
+<body>
+  <div>*****This is kid boy*****</div>
+</body>
+
+</html>

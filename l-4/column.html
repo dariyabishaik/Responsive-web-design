@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>column drop pattern
+<title>
+<style type="text/css">
+.container{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.box{
+  width:100%;
+  box-sizing: content-box;
+  border: 2px solid #000;
+  margin: 10px;
+  padding: 15px;
+  
+}
+.dark_blue{
+  width:25%;
+  background-color: #090A4B;
+
+}
+.light_blue{
+  width: 75%;
+  background-color: #8A8BF2  ;
+}
+.green{
+  width:100%;
+  background-color: #66E744  ;
+}
+@media screen and (min-width:450px){
+.dark_blue{
+  width: 100%;
+}
+.light_blue{
+  width: 100%;
+}
+}
+
+@media screen and (min-width:450px){
+.dark_blue,.green{
+  width:25%;
+}
+.light_blue{
+  width:50%;
+}
+}
+</style>
+</head>
+<body>
+  <div class="container">
+    <div class="dark_blue"></div>
+    <div class="light_blue"></div>
+    <div class="green"></div>
+  </div>
+</body>
+</html>

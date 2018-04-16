@@ -1,0 +1,36 @@
+body{background-color:#ddd;}
+.container{
+  width:100%;
+  display:flex;
+  flex-direction: row;
+}
+.box_dark_blue{
+  width:20%;
+  background-color:#091990;
+  flex-wrap: wrap;
+  border-radius: 1px solid #091990;
+}
+.box_light_blue{
+  width:20%;
+  background-color:#7FB7E2 ;
+  flex-wrap: wrap;
+  border-radius: 1px solid #7FB7E2;
+}
+.box_dark_green{
+  width:20%;
+  background-color:#2D9516 ;
+  flex-wrap: wrap;
+  border-radius: 1px solid #2D9516 ;
+}
+.box_orange{
+  width:20%;
+  background-color:#F98B09 ;
+  flex-wrap: wrap;
+  border-radius: 1px solid #F98B09 ;
+}
+.box_red{
+  width:20%;
+  background-color:#F9091B;
+  flex-wrap: wrap;
+  border-radius: 1px solid #F9091B ;
+}

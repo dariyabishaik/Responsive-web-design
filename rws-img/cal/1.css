@@ -1,0 +1,32 @@
+body{
+  background:#F8976D;
+}
+.banner{
+  position:absolute;
+  left:calc(50px);
+  width:calc(100%-80px);
+  border: solid black 1px;
+  box-shadow: 1px 2px;
+  background-color:#BD58A1;
+  padding:20%;
+  text-align: center;
+  box-sizing: border-box;
+  margin:10%;
+}
+
+input{
+  padding: 2px;
+  display: block;
+  width:calc(100%-1em);
+
+}
+
+#formbox{
+  width: calc(100%/6);
+  border: 1px solid black;
+  padding: 8px;
+  margin: 20%;
+}
+.c{
+  color:#280A28;
+}
